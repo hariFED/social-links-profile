@@ -11,7 +11,7 @@ const data = [
     },
     {
         appname: "Frontend Mentor",
-        link: "www.frontendmentor.com",
+        link: "www.frontendmentor.io",
         key: 2
 
     },
@@ -39,13 +39,15 @@ const data = [
 
 const SocialMediaShare = () => {
     return (
-        <div className=' w-1/2 p-10 rounded-2xl bg-[#1f1f1f] flex flex-col items-center justify-center'>
+        <div className=' lg:w-1/4   p-10 rounded-2xl bg-[#1f1f1f] flex flex-col items-center justify-center'>
             <Avatar pic={avatar} name="Jessica Randale" place="London, United kingdom" title="Front end developer and avid reader" />
 
             {data.map((item) => {
                 return (
                     <>
-                        <Button link={`https://${item.link}`} appname={item.appname} />
+                        <a href={`https://${item.link}`} className='w-full'>
+                            <Button appname={item.appname} />
+                        </a>
                     </>
                 )
             })
