@@ -45,7 +45,7 @@ const SocialMediaShare = () => {
             {data.map((item) => {
                 return (
                     <>
-                        <Button link={item.link} appname={item.appname}  />
+                        <Button link={`https://${item.link}`} appname={item.appname} />
                     </>
                 )
             })
