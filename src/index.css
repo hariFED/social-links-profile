@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+/* .green {
+  color: #c5f82a;
+}
+.white {
+  color: #ffffff;
+}
+.grey {
+  color: #333333;
+}
+.dark {
+  color: #1f1f1f;
+}
+.black {
+  color: #141414;
+} */
