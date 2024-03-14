@@ -39,7 +39,7 @@ const data = [
 
 const SocialMediaShare = () => {
     return (
-        <div className=' lg:w-1/4   p-10 rounded-2xl bg-[#1f1f1f] flex flex-col items-center justify-center'>
+        <div className=' lg:w-1/3   p-10 rounded-2xl bg-[#1f1f1f] flex flex-col items-center justify-center'>
             <Avatar pic={avatar} name="Jessica Randale" place="London, United kingdom" title="Front end developer and avid reader" />
 
             {data.map((item) => {
